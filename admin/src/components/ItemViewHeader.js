@@ -91,7 +91,7 @@ var Header = React.createClass({
 		
 		els.push(
 			<li key="back">
-				<a href={'/keystone/' + list.path} title={'Back to ' + list.plural}>
+				<a href={'/keystone/' + list.path} title={'Regresar a ' + list.plural}>
 					{backIcon}
 					{list.plural}
 				</a>
